@@ -3,117 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>BakerOS — Run Your Bakery. Grow Your Business.</title>
-  <meta name="description" content="BakerOS helps bakers manage orders, customers, inventory, and grow their business—all from one place." />
+  <title>BakerOS — Early Access</title>
 
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="logo-icon.png" />
+  <link rel="icon" href="logo-icon.png" />
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="logo">
-      <img src="logo-icon.png" alt="BakerOS Logo" />
-      <span>BakerOS</span>
-    </div>
+<header class="site-header">
+  <div class="logo">
+    <img src="logo-icon.png" alt="BakerOS logo" />
+    <span>BakerOS</span>
+  </div>
+</header>
 
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#faq">FAQ</a>
-    </nav>
+<main class="container">
 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuqm0x4r0s46QZHcr2kiabaDhv3uVldBujHXt3e9hLBDtXbQ/viewform?usp=header"
-       class="btn btn-small" target="_blank">
+  <img src="logo.png" class="hero-logo" alt="BakerOS">
+
+  <h1>Run Your Bakery. Grow Your Business.</h1>
+
+  <p>
+    Manage orders, customers, inventory, and marketing—all from your phone.
+  </p>
+
+  <h2>🚀 Join Early Access</h2>
+
+  <!-- FORM -->
+  <form action="https://formspree.io/f/xlgzrovp" method="POST" class="form">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="email" name="email" placeholder="Email Address" required>
+
+    <input type="tel" name="phone" placeholder="Phone Number (Optional)">
+
+    <select name="baker_type">
+      <option value="">What do you bake?</option>
+      <option>Cookies</option>
+      <option>Cakes</option>
+      <option>Both</option>
+      <option>Other</option>
+    </select>
+
+    <select name="struggle" required>
+      <option value="">Biggest struggle?</option>
+      <option>Keeping track of orders</option>
+      <option>Managing customers</option>
+      <option>Managing inventory</option>
+      <option>Getting more customers</option>
+      <option>Branding / website</option>
+    </select>
+
+    <button type="submit" class="btn">
       Join Early Access
-    </a>
-  </header>
+    </button>
 
-  <!-- HERO -->
-  <main>
-    <section class="hero">
-      <img src="logo.png" alt="BakerOS" class="hero-logo" />
+  </form>
 
-      <div class="hero-copy">
-        <h1>Run Your Bakery. Grow Your Business.</h1>
-
-        <p class="eyebrow">
-          Built for home bakers, cookie decorators, and small bakeries
-        </p>
-
-        <p>
-          Manage orders, customers, inventory, and marketing—all from your phone.
-        </p>
-
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuqm0x4r0s46QZHcr2kiabaDhv3uVldBujHXt3e9hLBDtXbQ/viewform?usp=header"
-           class="btn" target="_blank">
-          Join Early Access
-        </a>
-      </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section id="features" class="features">
-      <h2>Everything You Need to Run Your Bakery</h2>
-
-      <div class="feature-grid">
-        <div class="feature">
-          <h3>Orders</h3>
-          <p>Track and manage all your orders in one place.</p>
-        </div>
-
-        <div class="feature">
-          <h3>Customers</h3>
-          <p>Keep track of customer details and order history.</p>
-        </div>
-
-        <div class="feature">
-          <h3>Inventory</h3>
-          <p>Know what you have and what you need.</p>
-        </div>
-
-        <div class="feature">
-          <h3>Marketing</h3>
-          <p>Reach customers and grow your business faster.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA SECTION -->
-    <section class="cta">
-      <h2>🚀 Early Access Spots Are Limited</h2>
-      <p>Be the first to experience BakerOS before public launch.</p>
-
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuqm0x4r0s46QZHcr2kiabaDhv3uVldBujHXt3e9hLBDtXbQ/viewform?usp=header"
-         class="btn" target="_blank">
-        Join Early Access
-      </a>
-    </section>
-
-    <!-- FAQ -->
-    <section id="faq" class="faq">
-      <h2>FAQ</h2>
-
-      <div class="faq-item">
-        <h3>When will BakerOS launch?</h3>
-        <p>We’re currently building and testing. Early access users will be first in.</p>
-      </div>
-
-      <div class="faq-item">
-        <h3>Is this for home bakers?</h3>
-        <p>Yes—BakerOS is built specifically for home bakers and small bakery businesses.</p>
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>© 2026 BakerOS. All rights reserved.</p>
-  </footer>
+</main>
 
 </body>
 </html>
